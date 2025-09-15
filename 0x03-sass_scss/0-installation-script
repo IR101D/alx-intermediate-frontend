@@ -1,0 +1,16 @@
+# 0-installation-script
+
+# Step 1: Install Node.js (which includes npm)
+# If using NVM (Node Version Manager):
+nvm install 18
+nvm use 18
+
+# Verify installation
+node -v
+npm -v
+
+# Step 2: Install Sass globally using npm
+npm install -g sass
+
+# Step 3: Verify Sass installation
+sass --version
